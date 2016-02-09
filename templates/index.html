@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Best Restaurant</title>
+		<link rel="stylesheet" type=text/css href='{{ url_for('static',filename='style.css') }}'>
+	</head>
+	<body>
+		<div class=page>
+  		  <h1>User Input</h1>
+		 
+		  <div class=metanav>
+		    <h2>Please select a cuisine eg. Indian.</h2>
+		    <form id='userinfoform' action='index' method='post'>
+		      <p>
+			Cuisine <input type='text' name='cuisine' />
+		      </p>
+			<input type='submit' value='Submit' />
+		      </p>
+		      </form>
+                   </div>
+		</div>
+	</body>
+</html>
